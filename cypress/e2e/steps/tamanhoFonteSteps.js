@@ -9,7 +9,7 @@ Given("que eu estou na página inicial do Governo da Paraíba", () => {
     .click();
 });
 
-When("eu clico em Aumentar Fonte", () => {
+When("eu clico 3x em Aumentar Fonte", () => {
   const btn =
     ".header-transparencia-acessebilidade--buttons > :nth-child(2) > a";
 
